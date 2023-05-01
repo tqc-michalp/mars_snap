@@ -35,3 +35,4 @@ mars_snap-*.tar
 npm-debug.log
 /assets/node_modules/
 
+**/*.secret.exs
