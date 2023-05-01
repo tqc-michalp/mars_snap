@@ -2,9 +2,7 @@ import Config
 
 # Configure your database
 config :mars_snap, MarsSnap.Repo,
-  username: "postgres",
-  password: "postgres",
-  hostname: "localhost",
+  socket_dir: "/var/run/postgresql",
   database: "mars_snap_dev",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
